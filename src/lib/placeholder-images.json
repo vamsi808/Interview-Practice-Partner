@@ -1,0 +1,22 @@
+{
+  "placeholderImages": [
+    {
+      "id": "software-engineer",
+      "description": "A developer working on a laptop with code on the screen.",
+      "imageUrl": "https://images.unsplash.com/photo-1542831371-29b0f74f9713?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxsYXB0b3AlMjBjb2RlfGVufDB8fHx8MTc2Mzc2MjkzM3ww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "laptop code"
+    },
+    {
+      "id": "sales-manager",
+      "description": "Two professionals shaking hands in a meeting.",
+      "imageUrl": "https://images.unsplash.com/photo-1698047681820-f26b00b6c639?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw1fHxoYW5kc2hha2UlMjBtZWV0aW5nfGVufDB8fHx8MTc2Mzc5Mjk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "handshake meeting"
+    },
+    {
+      "id": "retail-associate",
+      "description": "A friendly retail associate helping a customer in a store.",
+      "imageUrl": "https://images.unsplash.com/photo-1562280963-8a5475740a10?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw2fHxzaG9wcGluZyUyMHN0b3JlfGVufDB8fHx8MTc2Mzc5Mjk4NXww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "shopping store"
+    }
+  ]
+}
