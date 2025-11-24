@@ -130,54 +130,11 @@ export const ai = genkit({
 
 # 🧱 Architecture Diagram (ASCII)
 
-```
-                    +-------------------------------+
-                    |        User Interface         |
-                    |  Next.js + ShadCN Components  |
-                    +-------------------------------+
-                                   |
-                                   v
-                    +-------------------------------+
-                    |       Next.js Server Actions  |
-                    +-------------------------------+
-                                   |
-                                   v
-                    +-------------------------------+
-                    |           Genkit AI           |
-                    |  (Gemini Flows & Evaluators)  |
-                    +-------------------------------+
-                     /       |               |                         v        v               v      v
-         +--------------+ +--------------+ +------------------+ +-------------+
-         | Follow-up    | | Performance  | | Personalized     | |   TTS       |
-         | Question Gen | | Assessment   | | Feedback Engine  | |  (Audio)   |
-         +--------------+ +--------------+ +------------------+ +-------------+
-                                   |
-                                   v
-                    +-------------------------------+
-                    |       Output to Frontend      |
-                    |  (Text + Audio Response)      |
-                    +-------------------------------+
-```
 
----
 
 # 🔁 Sequence Flow Diagram (ASCII)
 
-```
-User -> UI: Submit answer
-UI -> Server: Send answer text
-Server -> Genkit: Process & evaluate
-Genkit -> Gemini: LLM reasoning
-Gemini -> Genkit: Return insights
-Genkit -> Server:
-    - Follow-up question
-    - Performance score
-    - Suggestion
-    - TTS audio
-Server -> UI: Display results + Play audio
-```
 
----
 
 # 🎨 Design Decisions
 
