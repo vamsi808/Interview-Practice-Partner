@@ -129,7 +129,7 @@ Google Cloud Services (TTS, Vertex AI)
    v
 Storage Layer (DB, Logs, Audio Blobs)
 
-![Project Architecture](vamsi808/interview-practice-partner/architecture_images/final_architecture.png)
+![Project Architecture](https://github.com/vamsi808/Interview-Practice-Partner/blob/main/architecture_images/final_architecture.png)
 
 ## Sequence Flow Diagram (ASCII Simplified)
 
