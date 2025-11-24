@@ -111,8 +111,8 @@ provide-personalized-feedback.ts | Produces improvement feedback
 text-to-speech.ts | Converts text to audio output
 
 ## Architecture Diagram (ASCII Simplified)
-
-User
+```
+  User
    |
    v
 Next.js Frontend (UI, Audio Handling)
@@ -128,11 +128,11 @@ Google Cloud Services (TTS, Vertex AI)
    |
    v
 Storage Layer (DB, Logs, Audio Blobs)
-
+```
 ![Project Architecture](https://github.com/vamsi808/Interview-Practice-Partner/blob/main/architecture_images/final_architecture.png)
 
 ## Sequence Flow Diagram (ASCII Simplified)
-
+```
 User → Frontend: Submit answer
 Frontend → Server: Process request
 Server → Genkit: Evaluate and generate next step
@@ -141,6 +141,8 @@ Gemini → Genkit: Scores, feedback, next question
 Genkit → TTS: Convert text to audio
 Server → Frontend: Return text + audio
 Frontend → User: Present results
+```
+![Sequence Flow Diagram](https://github.com/vamsi808/Interview-Practice-Partner/blob/main/architecture_images/sequence_flow.png)
 
 ## Design Decisions and Reasoning
 
